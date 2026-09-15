@@ -4,8 +4,8 @@
 // ========================================================
 
 window.EVENTO_CONFIG = {
-  nome: "Pedro Nero",
-  idade: "1 aninho",
+  nome: "Ângelo Miguel",
+  idade: "3 aninhos",
 
   // ÁREAS CLICÁVEIS DA TELA INICIAL
   // Valores em porcentagem da largura/altura da arte.
@@ -16,8 +16,8 @@ window.EVENTO_CONFIG = {
   },
 
   quiz: {
-    titulo: "Quiz do Pedro Nero",
-    subtitulo: "Será que você conhece bem o Pedro Nero?",
+    titulo: "Quiz do Ângelo Miguel",
+    subtitulo: "Será que você conhece bem o Ângelo Miguel?",
 
     perguntas: [
       {
@@ -73,17 +73,17 @@ window.EVENTO_CONFIG = {
     ],
 
     mensagensResultado: {
-      0: "😅 Opa! Parece que você ainda tem muito para descobrir sobre o Pedro Nero!",
-      1: "😂 Foi por pouco… de acertar quase nada! Bora conhecer melhor o Pedro Nero!",
+      0: "😅 Opa! Parece que você ainda tem muito para descobrir sobre o Ângelo Miguel!",
+      1: "😂 Foi por pouco… de acertar quase nada! Bora conhecer melhor o Ângelo Miguel!",
       2: "🤭 Você ainda tem bastante coisa para descobrir sobre o nosso aniversariante!",
-      3: "😄 Tá começando! Precisa visitar mais o Pedro Nero!",
+      3: "😄 Tá começando! Precisa visitar mais o Ângelo Miguel!",
       4: "👀 Quase na metade! Você já sabe algumas coisinhas sobre ele!",
-      5: "💙 Metade! Você conhece o Pedro Nero razoavelmente bem!",
-      6: "✨ Mandou bem! Você já sabe bastante sobre o Pedro Nero!",
+      5: "💙 Metade! Você conhece o Ângelo Miguel razoavelmente bem!",
+      6: "✨ Mandou bem! Você já sabe bastante sobre o Ângelo Miguel!",
       7: "💫 Muito bem! Você conhece mesmo o nosso aniversariante!",
-      8: "👑 Uau! Você conhece MUITO o Pedro Nero! Faltou pouquinho para gabaritar!",
+      8: "👑 Uau! Você conhece MUITO o Ângelo Miguel! Faltou pouquinho para gabaritar!",
       9: "🏆 QUASE PERFEITO! Um errinho separou você do 10/10!",
-      10: "👑✨ GABARITOU! Você conhece o Pedro Nero melhor do que ninguém! 😂"
+      10: "👑✨ GABARITOU! Você conhece o Ângelo Miguel melhor do que ninguém! 😂"
     }
   }
 };
