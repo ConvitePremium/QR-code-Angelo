@@ -11,8 +11,8 @@ window.EVENTO_CONFIG = {
   // Valores em porcentagem da largura/altura da arte.
   // Use index.html?debug=1 para visualizar as áreas em vermelho.
   botoes: {
-    quiz: { x: 52.0, y: 65.3, largura: 36.0, altura: 17.2 },
-    foto: { x: 12.3, y: 65.3, largura: 37.5, altura: 17.2 }
+   quiz: { x: 17.2, y: 39.5, largura: 65.6, altura: 8.3 },
+   foto: { x: 16, y: 51.8, largura: 66.7, altura: 7.9 }
   },
 
   quiz: {
