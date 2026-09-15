@@ -1,0 +1,89 @@
+// ========================================================
+// CONFIGURAÇÃO DA ENGINE
+// Edite SOMENTE este arquivo para personalizar cada evento.
+// ========================================================
+
+window.EVENTO_CONFIG = {
+  nome: "Pedro Nero",
+  idade: "1 aninho",
+
+  // ÁREAS CLICÁVEIS DA TELA INICIAL
+  // Valores em porcentagem da largura/altura da arte.
+  // Use index.html?debug=1 para visualizar as áreas em vermelho.
+  botoes: {
+    quiz: { x: 52.0, y: 65.3, largura: 36.0, altura: 17.2 },
+    foto: { x: 12.3, y: 65.3, largura: 37.5, altura: 17.2 }
+  },
+
+  quiz: {
+    titulo: "Quiz do Pedro Nero",
+    subtitulo: "Será que você conhece bem o Pedro Nero?",
+
+    perguntas: [
+      {
+        pergunta: "Qual meu super-herói favorito?",
+        opcoes: ["Homem-Aranha", "Incrível Hulk", "Homem de Ferro", "Superman"],
+        correta: "Homem-Aranha"
+      },
+      {
+        pergunta: "Quais são minhas frutas favoritas?",
+        opcoes: ["Morango, banana e melancia", "Melão, goiaba e uva", "Kiwi, jaca e manga", "Amora, laranja e maçã"],
+        correta: "Morango, banana e melancia"
+      },
+      {
+        pergunta: "Qual minha bebida favorita?",
+        opcoes: ["Sucos", "Refrigerantes", "Chás", "Cafés"],
+        correta: "Sucos"
+      },
+      {
+        pergunta: "Qual meu time do coração?",
+        opcoes: ["Flamengo", "Palmeiras", "Fluminense", "Corinthians"],
+        correta: "Flamengo"
+      },
+      {
+        pergunta: "Qual o dia certo do meu aniversário?",
+        opcoes: ["15/09", "14/09", "13/09", "16/09"],
+        correta: "15/09"
+      },
+      {
+        pergunta: "Qual minha brincadeira preferida?",
+        opcoes: ["Jogar bola", "Esconde-esconde", "Pega-pega", "Video-game"],
+        correta: "Jogar bola"
+      },
+      {
+        pergunta: "Qual meu hobby favorito?",
+        opcoes: ["Andar de carro", "Andar de bicicleta", "Andar de moto", "Todas estão corretas"],
+        correta: "Andar de carro"
+      },
+      {
+        pergunta: "Qual o nome da minha cadelinha?",
+        opcoes: ["Mel", "Amora", "Zaya", "Lessie"],
+        correta: "Mel"
+      },
+      {
+        pergunta: "Qual a minha cor favorita?",
+        opcoes: ["Azul", "Vermelho", "Verde", "Preto"],
+        correta: "Azul"
+      },
+      {
+        pergunta: "Eu gosto mais de?",
+        opcoes: ["Parque e algodão doce", "Praia e peixe", "Shopping e sorvete", "Praça e pipoca"],
+        correta: "Parque e algodão doce"
+      }
+    ],
+
+    mensagensResultado: {
+      0: "😅 Opa! Parece que você ainda tem muito para descobrir sobre o Pedro Nero!",
+      1: "😂 Foi por pouco… de acertar quase nada! Bora conhecer melhor o Pedro Nero!",
+      2: "🤭 Você ainda tem bastante coisa para descobrir sobre o nosso aniversariante!",
+      3: "😄 Tá começando! Precisa visitar mais o Pedro Nero!",
+      4: "👀 Quase na metade! Você já sabe algumas coisinhas sobre ele!",
+      5: "💙 Metade! Você conhece o Pedro Nero razoavelmente bem!",
+      6: "✨ Mandou bem! Você já sabe bastante sobre o Pedro Nero!",
+      7: "💫 Muito bem! Você conhece mesmo o nosso aniversariante!",
+      8: "👑 Uau! Você conhece MUITO o Pedro Nero! Faltou pouquinho para gabaritar!",
+      9: "🏆 QUASE PERFEITO! Um errinho separou você do 10/10!",
+      10: "👑✨ GABARITOU! Você conhece o Pedro Nero melhor do que ninguém! 😂"
+    }
+  }
+};
