@@ -70,3 +70,13 @@ COMPARTILHAMENTO DO RESULTADO
 - Em celulares/navegadores compatíveis, o menu de compartilhamento abre com a imagem.
 - Foi adicionado também o botão "Baixar resultado".
 - A engine continua sem banco de dados.
+
+
+EDITOR VISUAL DOS BOTÕES
+Abra: index.html?editor=1
+- Vermelho = Quiz
+- Azul = Moldura / Foto
+- Arraste a área para mover
+- Arraste a bolinha branca para redimensionar
+- Clique em "Baixar config.js atualizado" e substitua o config.js antigo.
+Para apenas visualizar as áreas: index.html?debug=1
