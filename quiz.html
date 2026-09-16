@@ -413,13 +413,13 @@
         `quiz-pedro-nero-${acertos}de${total}.png`,
         { type: "image/png" }
       );
-      const texto = `Eu fiz ${acertos}/${total} no Quiz do Pedro Nero!`;
+      const texto = `Eu fiz ${acertos}/${total} no Quiz do Ângelo Miguel!`;
 
       try {
         if (navigator.canShare && navigator.canShare({ files: [arquivo] }) && navigator.share) {
           await navigator.share({
             files: [arquivo],
-            title: "Quiz do Pedro Nero",
+            title: "Quiz do Ângelo Miguel",
             text: texto
           });
         } else if (navigator.share) {
